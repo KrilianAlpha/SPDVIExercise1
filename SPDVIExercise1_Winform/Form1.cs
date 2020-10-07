@@ -19,7 +19,7 @@ namespace SPDVIExercise1_Winform
 
         private void button1_Click(object sender, EventArgs e)
         {
-            DialogResult res = MessageBox.Show("Select Ok or Cancel", "Confirmation", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
+            DialogResult res = MessageBox.Show("Select Ok or Cancel Please", "Confirmation", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
             if (res == DialogResult.OK)
             {
                 MessageBox.Show("You have clicked Ok Button");
